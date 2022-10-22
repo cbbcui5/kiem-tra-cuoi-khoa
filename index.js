@@ -57,7 +57,7 @@ const kiem_tra_snt = (n) => {
 
   return flag;
 };
-const getPrimeNumbers = (test) => {
+const getPrimeNumbers = () => {
   return test.filter((e) => kiem_tra_snt(e));
 };
 
