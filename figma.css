@@ -1,0 +1,147 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-color: #bfc8e6;
+  padding: 200px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.container {
+  padding: 100px;
+  background-color: white;
+  width: 1215px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+}
+.users {
+  font-family: "Merriweather";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 40px;
+}
+.search-users {
+  display: flex;
+  gap: 8px;
+  padding: 16px;
+  align-items: center;
+  border: 0.5px solid #bfc8e6;
+  width: 327px;
+  border-radius: 5px;
+}
+.search-users img {
+  height: 32px;
+  width: 32px;
+}
+.container-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.group-btn {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+}
+.info-users {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+}
+.group1,
+.group2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0px;
+  width: 100%;
+  gap: 16px;
+}
+.item1-group1,
+.item2-group2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 24px;
+  gap: 16px;
+  height: 208px;
+  background: #fbfcff;
+  border-radius: 16px;
+  background-color: #fbfcff;
+  width: 100%;
+}
+.text-header {
+  font-family: "Merriweather";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 23px;
+}
+.text-in-item {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 21px;
+  color: #151b32;
+}
+.text-in-item-boder {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 8px;
+  gap: 10px;
+  background: #ffffff;
+  border: 1px solid #bfc8e6;
+  border-radius: 10px;
+  color: #516fd5;
+}
+.hoppy {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 4px;
+  flex-wrap: wrap;
+}
+.group-btn :hover {
+  background-color: #849fff;
+  border-radius: 5px;
+}
+.group-btn :active {
+  background-color: #849fff;
+  border-radius: 5px;
+}
+.group1 :active {
+  background-color: #fbfcff;
+  border-radius: 16px;
+  border: 1px solid #bfc8e6;
+  box-shadow: 0px 8px 23px rgba(218, 224, 249, 0.7);
+}
+.group2 :active {
+  background-color: #fbfcff;
+  border-radius: 16px;
+  border: 1px solid #bfc8e6;
+  box-shadow: 0px 8px 23px rgba(218, 224, 249, 0.7);
+}

@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.input {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+#output {
+  word-wrap: break-word;
+  line-height: 2;
+}
